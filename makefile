@@ -5,4 +5,5 @@ README:
 	echo >> README.md
 	echo "lines: " >> README.md
 	cat guessinggame.sh | wc -l >> README.md
+	cp README.md index.html
 
